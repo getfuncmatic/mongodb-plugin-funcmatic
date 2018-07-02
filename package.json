@@ -1,0 +1,25 @@
+{
+  "name": "@funcmatic/mongodb-plugin-funcmatic",
+  "version": "1.0.0-alpha",
+  "description": "MongoDB Client Plugin for the Funcmatic Lambda JS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getfuncmatic/mongodb-plugin-funcmatic.git"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.10"
+  },
+  "devDependencies": {
+    "@funcmatic/funcmatic": "^1.0.0-alpha",
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
