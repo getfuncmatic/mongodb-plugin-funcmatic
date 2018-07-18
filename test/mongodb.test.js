@@ -1,7 +1,7 @@
 var Funcmatic = require('@funcmatic/funcmatic')
 var MongoDBPlugin = require('../lib/mongodb')
 
-var handler = Funcmatic.wrap(async (event, { mongodb }) => {
+var handler = Funcmatic.wrap(async (event, context, { mongodb }) => {
   var stats = await mongodb.stats()
   return {
     statusCode: 200,
