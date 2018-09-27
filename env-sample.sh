@@ -1,1 +1,0 @@
-export MONGODB_URI='mongodb+srv://user:password@mongo.host/dbname?retryWrites=true'
