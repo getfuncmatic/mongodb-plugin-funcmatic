@@ -1,6 +1,6 @@
 {
   "name": "@funcmatic/mongodb-plugin-funcmatic",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "description": "MongoDB Client Plugin for the Funcmatic Lambda JS Framework",
   "main": "index.js",
   "scripts": {
